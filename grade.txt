@@ -1,0 +1,14 @@
+Please fill out what was requested in the Requirements document:
+1. Project Abstract
+2. Team members
+3. The location of your repository (on Github!)
+4. Description of what the program does in some detail
+5. Description of your UI (command line or GUI–mock picture help!)
+6. Description of division of labor
+7. UML Use cases
+
+I only have the 3 & 7 = 29
+
+I don't even know all the team members to assign credit to...
+
+PLEASE FIX AND RESUBMIT!!!
