@@ -3,7 +3,7 @@ package controllers;
 import play.mvc.*;
 
 import views.html.*;
-
+import play.twirl.api.Html;
 /**
  * This controller contains an action to handle HTTP requests
  * to the application's home page.
@@ -17,7 +17,8 @@ public class HomeController extends Controller {
      * <code>GET</code> request with a path of <code>/</code>.
      */
     public Result index() {
-        return ok(index.render("Your new application is ready."));
+        return ok(main.render("Quiz Home Page",Html.apply("Hellow World")));
     }
+
 
 }
