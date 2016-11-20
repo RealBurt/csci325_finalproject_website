@@ -1,0 +1,4 @@
+This is a set of static arrays and methods that should allow us to easily access variables without having to worry about 
+  about passing them to new pages. It does this by generating a unique Username on the back end, setting that in the mName array
+  and using that index for all other information related to that user it is scalable, you can add to it, but you must use get
+  and set functions to work with the Arrays.
