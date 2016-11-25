@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<td> 
+
+</td>
+
+"a set of radio buttons with values A B C & D" <br/>
+<input type="radio" id="1"    name="buztype" value="A"> A<br/>
+<input type="radio" id="2"     name="buztype" value="B"> B<br/>
+<input type="radio"  id="3"    name="buztype" value="C"> C<br/>
+<input type="radio"  id="3"    name="buztype" value="D"> D<br/>
+<body>
+
+<h2>Create Object from JSON String</h2>
+
+<p id="questions"></p>
+
+<script>
+//this is a text list with 2 Questions, the LetterAnswer, and the WordAnswer
+var text = '{"questions":[' +
+'{"Question":"Who is Kanyes wife?","LetterAnswer":"B","WordAnswer":"Kim Kardashian" },'+'{"Question":"Who is Kim Kardashians husband","LetterAnswer":"C","WordAnswer":"Kanye West" },'+'{"firstName":"Peter","lastName":"Jones" }]}';
+
+obj = JSON.parse(text);
+document.getElementById("questions").innerHTML =
+
+//essentially from here i was going to make a nested loop but was having problems. on the outside it would loop through the letter answer value of each question. then on the inside compare that letter answer value by looping through the radio buttons until it found one that was selected by the user and comparing its 'value' to 'LetterAnswer'. if they matched then 
+</script>
+
+</body>
+</html>
